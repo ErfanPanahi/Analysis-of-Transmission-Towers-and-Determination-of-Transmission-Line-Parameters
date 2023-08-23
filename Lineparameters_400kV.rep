@@ -1,0 +1,74 @@
+Power_lineparam Report.
+05-Jul-2023 14:33:48
+
+COMMENTS:
+
+Example of a 735 KV three-phase line
+
+Three bundles of 4 Bersfort ACSR 1355 MCM conductors
+Two 1/2 inch diameter steel grounds wires
+
+Ytower =Ymin =  average heights of conductors
+
+
+LINE GEOMETRY:
+
+Frequency (Hz): 50.00
+Ground resistivity (ohm.m): 100.000
+Number of phase conductors (bundles): 3
+Number of ground wires (bundles): 2
+
+Conductor  Phase      X         Ytower      Ymin     Conductor
+-----------------------------------------------------------------
+	1		 1		-8.250		34.800		29.800		1
+	2		 2		-10.250		24.500		19.500		1
+	3		 3		-8.350		14.200		9.200		1
+	4		 3		8.250		34.800		29.800		1
+	5		 2		10.250		24.500		19.500		1
+	6		 1		8.350		14.200		9.200		1
+	7		 0		-6.000		44.900		39.900		2
+	8		 0		6.000		44.900		33.900		2
+-----------------------------------------------------------------
+
+
+CONDUCTOR AND BUNDLE CHARACTERISTICS:
+
+Conductor   Conductor   Conductor   Conductor   Conductor DC  Conductor   Number    Bundle    Angle of
+(bundle)    Outside     T/D         GMR         resistance    relative    of        diameter  conductor
+-------------------------------------------------------------------------------------------------------
+	1	    0.036		0.375		0.014		0.042		  1			  3			0.450	  30.00
+	2	    0.012		0.500		0.005		4.000		  1			  1			0.000	  0.00
+-------------------------------------------------------------------------------------------------------
+
+
+R, L, AND C LINE PARAMETERS:
+
+Resistance matrix R_matrix (ohm/km):
+
+0.0786  0.0707  0.0719  
+0.0707  0.0774  0.0713  
+0.0719  0.0713  0.0798  
+
+Inductance matrix L_matrix (H/km):
+
+1.1978e-03  7.8096e-04  7.3625e-04  
+7.8096e-04  1.2252e-03  7.8017e-04  
+7.3625e-04  7.8017e-04  1.1962e-03  
+
+Capacitance matrix C_matrix (F/km):
+
+2.1916e-08  -5.2211e-09  -3.0199e-09  
+-5.2211e-09  2.0988e-08  -5.1503e-09  
+-3.0199e-09  -5.1503e-09  2.2197e-08  
+
+Positive- & zero- sequence resistance [R1 Ro] (ohm/km):
+
+[ 0.0074 , 0.2212 ]
+
+Positive- & zero- sequence inductance [L1 Lo] (H/km):
+
+[ 4.4062e-04 , 2.7380e-03 ]
+
+Positive- & zero- sequence capacitance [C1 Co] (F/km):
+
+[ 2.6164e-08 , 1.2773e-08 ]
